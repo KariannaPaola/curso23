@@ -1,0 +1,28 @@
+body{
+  margin: 50px 60px 40px 60px;
+}
+section{
+  display: flex;
+  gap: 200px;
+  margin-top: 40px;
+  margin-bottom: 250px;
+}
+
+.fotos{
+  border-radius: 10px;
+  margin-top: 60px;
+  box-shadow: 5px 5px 20px 20px aqua;
+}
+p{
+  text-align: justify;
+  width: 300px;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: Space Grotesk, sans-serif;
+  
+}
+h1{
+  font-size: 50px;
+  font-family:Space Grotesk, sans-serif; 
+  
+}
