@@ -1,24 +1,25 @@
-body{
+*{
   margin: 0;
   padding: 0;
-  font-family: "Space Grotesk", sans-serif;
 }
 
 .columna{
   display: flex;
   flex-direction: column;
-  padding: 90px;
+  justify-content: center;
+  align-items: center;
   gap: 150px;
+  padding: 70px;
+
 }
 .fila{
   display: flex;
   gap: 60px;
   justify-content: center;
   align-items: center;
-
 }
 
-.fila div{
+div{
   width: 50%;
 }
 
