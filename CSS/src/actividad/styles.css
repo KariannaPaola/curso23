@@ -1,28 +1,38 @@
 body{
-  margin: 50px 60px 40px 60px;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
 }
-section{
+
+.columna{
   display: flex;
-  gap: 200px;
-  margin-top: 40px;
-  margin-bottom: 250px;
+  flex-direction: column;
+  padding: 90px;
+  gap: 150px;
+}
+.fila{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div{
+  width: 50%;
 }
 
 .fotos{
-  border-radius: 10px;
-  margin-top: 60px;
-  box-shadow: 5px 5px 20px 20px aqua;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-p{
-  text-align: justify;
+
+.text-derecha{
+  text-align: right;
+}
+img{
+  border-radius: 25px;
   width: 300px;
-  font-size: 25px;
-  line-height: 30px;
-  font-family: Space Grotesk, sans-serif;
-  
-}
-h1{
-  font-size: 50px;
-  font-family:Space Grotesk, sans-serif; 
-  
+  height: 300px;
 }
