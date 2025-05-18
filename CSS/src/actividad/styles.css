@@ -15,7 +15,7 @@
 .fila{
   display: flex;
   gap: 60px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -24,6 +24,8 @@
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  gap: 25px;
+
 
 }
 
