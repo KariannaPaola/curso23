@@ -6,6 +6,8 @@
 .columna{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 150px;
   padding: 70px;
 
