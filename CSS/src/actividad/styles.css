@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.fila div{
+div{
   display: flex;
   flex-direction: column;
   justify-content: center;
